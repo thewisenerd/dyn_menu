@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+	color: black;
+}
+
+#site_header {
+	display: block;
+	position: relative;
+	background-color: #5A0009;
+	height: 200px;
+	width: 100%;
+	border: none;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+#site_header tr td {
+	padding: 0px;
+}
+
+#kvs_logo {
+	position: relative;
+	vertical-align: middle;
+}
+
+#school_pic_fix {
+	position: relative;
+	vertical-align: middle;
+	left: 0px;
+	top: 0px;
+}
+
+#school_pic_fix img {
+	width: 100%;
+}
+
+#school_name_fix {
+	font-family: times new roman, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.header_school_nm_txt {
+	font-size: medium;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#site_header_codes {
+	width: 100%;
+	font-family: 'Courier New', 'Courier', 'monospace';
+	font-size: medium;
+	border: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#site_header_codes td {
+	width: 50%;
+}
+
+#site_header_codes tr td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#content {
+	padding: 0px;
+	border: none;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+	height: auto;
+}
+
+#content .left {
+	width: 25%; /*25 + 40 + 30 */
+	vertical-align: top;
+}
+
+#content .center {
+	vertical-align: top;
+	width: 40%; /*25 + 40 + 30 */
+}
+
+#content .right {
+	width: 30%; /*25 + 40 + 30 */
+	text-align: center;
+}
+
+#content .right embed {
+	width: 80%;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	background: #999;
+}
+.info_txt b{
+	color: black;
+	text-align: center;
+}
+
+.info_txt {
+	font-family: "Times New Roman", Times, serif;
+	font-size: larger;
+	text-align: left;
+	color: #78560d;
+	margin-left: 10px;
+}
+
+#footer {
+	padding: 0px;
+	border: none;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+	height: 50px;
+	background-color: #5A0009;
+	color: #d7a02d;
+}
+
+#footer a {
+	color: #d7a02d;
+}
+
+#footer td {
+	vertical-align: middle;
+	text-align: center;
+	width: 50%;
+}

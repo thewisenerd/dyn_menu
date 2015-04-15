@@ -1,0 +1,75 @@
+<siteMap>
+
+	<siteMapNode title="Home" url="/" >
+		<siteMapNode title="Announcements" url="/info/announcements/" />
+	</siteMapNode>
+
+	<siteMapNode title="About Us" url="javascript:void(0)" >
+		<siteMapNode title="Contact us" url="/contact/" />
+		<siteMapNode title="Facilities" url="/info/infrastructure/" />
+		<siteMapNode title="About KV DGQA" url="/about/dgqa/" />
+		<siteMapNode title="Current news" url="/info/current_news/" />
+		<siteMapNode title="Citizen Charter" url="/about/kvs/citizen_charter/" />
+	</siteMapNode>
+
+	<siteMapNode title="Academics" url="javascript:void(0)" >
+		<siteMapNode title="Students" url="javascript:void(0)" >
+			<siteMapNode title="Classwise Enrolment" url="/info/enrolment/class_wise/" />
+			<siteMapNode title="Category-wise Enrolment" url="/info/enrolment/category_wise/" />
+			<siteMapNode title="Student Vacancy" url="/info/enrolment/class_wise/" />
+			<siteMapNode title="Fee structure" url="/info/fees/" />
+			<siteMapNode title="Student Achievers" url="/about/achievements/students/" />
+		</siteMapNode>
+		<siteMapNode title="Exam" url="javascript:void(0)" >
+			<siteMapNode title="Result Analysis" url="/info/results/" />
+			<siteMapNode title="Schedule" url="/info/exams/" />
+		</siteMapNode>
+		<siteMapNode title="Project/Activities" url="javascript:void(0)" >
+			<siteMapNode title="CMP" url="/about/cmp/" />
+			<siteMapNode title="CCE" url="/about/cce/" />
+			<siteMapNode title="Innovations" url="/about/innovations/" />
+			<siteMapNode title="Games and Sports" url="/about/activities/sports/" />
+			<siteMapNode title="Scouts and Guides" url="/about/activities/scouts/" />
+			<siteMapNode title="CCA" url="/about/activities/co_curricular/" />
+			<siteMapNode title="Adventure/Clubs" url="/about/activities/student_clubs/" />
+		</siteMapNode>
+		<siteMapNode title="I C T" url="javascript:void(0)" >
+			<siteMapNode title="Resources" url="/about/ict/" />
+		</siteMapNode>
+		<siteMapNode title="Teacher Achievers" url="/about/achievements/teachers/" />
+		<siteMapNode title="Admission guidelines" url="/info/admission/" />
+		<siteMapNode title="TCs Issued" url="/info/enrolment/student_tc/" />
+	</siteMapNode>
+
+	<siteMapNode title="Administration" url="javascript:void(0)" >
+		<siteMapNode title="VMC Members" url="/about/vmc/" />
+		<siteMapNode title="Staff" url="javascript:void(0)" >
+			<siteMapNode title="Member List" url="/info/staff/list/" />
+			<siteMapNode title="Vacancy" url="/info/staff/vacancy/" />
+		</siteMapNode>
+		<siteMapNode title="Rajbasha" url="/about/rajbasha/" />
+		<siteMapNode title="RTI" url="/info/RTI/" />
+		<siteMapNode title="Grievance" url="/about/grievance/" />
+	</siteMapNode>
+
+	<siteMapNode title="Finance" url="javascript:void(0)" >
+		<siteMapNode title="Staff Salary" url="/info/staff/salary/" />
+		<siteMapNode title="Budget" url="/about/budget/" />
+	</siteMapNode>
+
+	<siteMapNode title="Miscellaneous" url="javascript:void(0)" >
+		<siteMapNode title="KV Alumini" url="/about/alumini/" />
+		<siteMapNode title="Committees" url="/about/committees/" />
+		<siteMapNode title="Photo Gallery" url="/photos/" />
+		<siteMapNode title="Places" url="/about/chennai/" />
+		<siteMapNode title="Links" url="/info/links/" />
+		<siteMapNode title="Achievements - CBSE/Olympiads/NTSE/KVPY" url="/about/activities/olympiad/" />
+		<siteMapNode title="Distinguished Passed-Outs" url="/about/pass_outs/" />
+		<siteMapNode title="Creative Corner" url="/about/activities/creative_corner/" />
+		<siteMapNode title="Archives" url="/archives/" />
+		<siteMapNode title="Website Committee" url="/about/web/" />
+	</siteMapNode>
+
+	<siteMapNode title="Hindi" url="/hindi/" />
+
+</siteMap>

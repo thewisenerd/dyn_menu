@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>dyn_menu</title>
+
+		<link rel="stylesheet" type="text/css" href="cssmenu.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<!-- crappy css/js menu stuff -->
+		<script type='text/javascript' src='cssmenu.js'></script>
+		<script type="text/javascript">
+			var qmad = new Object();
+			qmad.bvis="";
+			qmad.bhide="";
+			
+			/* Add-On Settings */
+			
+			/*  Menu 0 Add-On Settings */
+			var a = qmad.qm0 = new Object();
+			
+			// Item Bullets (CSS - Imageless) Add On
+			a.ibcss_apply_to = "parent";
+			a.ibcss_main_type = "arrow";
+			a.ibcss_main_direction = "down";
+			a.ibcss_main_size = 6;
+			a.ibcss_main_bg_color = "transparent;";
+			a.ibcss_main_bg_color_hover = "transparent";
+			a.ibcss_main_border_color = "transparent";
+			a.ibcss_main_border_color_hover = "transparent";
+			a.ibcss_main_position_x = -14;
+			a.ibcss_main_position_y = -8;
+			a.ibcss_main_align_x = "center";
+			a.ibcss_main_align_y = "top";
+			a.ibcss_sub_type = "arrow-head";
+			a.ibcss_sub_direction = "right";
+			a.ibcss_sub_size = 6;
+			a.ibcss_sub_bg_color = "#000";
+			a.ibcss_sub_bg_color_active = "#000";
+			a.ibcss_sub_border_color = "#000";
+			a.ibcss_sub_border_color_active = "#000";
+			a.ibcss_sub_position_x = -16;
+			a.ibcss_sub_align_x = "right";
+			a.ibcss_sub_align_y = "middle";
+			
+		</script>
+		<!-- crappy css/js menu stuff (end) -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+		<script type="text/javascript" src="jquery.xml2json.js"></script>
+		<script type="text/javascript" src="bundle.js"></script>
+
+	</head>
+
+	<body>
+
+			<ul id="qm0" class="qmmc" align="center">
+			</ul>
+
+
+		<script>
+			$(document).ready(function() {
+				dyn_menu_create("sitemap.xml");
+			});
+		</script>
+		<script type='text/javascript' src='cssmenu-arrows.js'></script>
+	</body>
+</html>
+
+
