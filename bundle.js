@@ -54,11 +54,15 @@ function dyn_menu_create(base_url) {
 		
 		dyn_write(content);
 
+		//idk, this is some crap.
 		qm_create(0,false,0,250,false,false,false,false,false);
+
+		//init arrows
+		qm_ibcss_init();
 
 		var total_width=$(window).width();var is_ie = 0;
 
-		var elem_width = (total_width / 7) - 2;
+		var elem_width = (total_width / content.siteMapNode.length) - 2;
 		$("#qm0 a").css({"min-width":elem_width});
 		if (is_ie == 1) {
 			$("#qm0 a").css({"width":elem_width});
